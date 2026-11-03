@@ -186,10 +186,6 @@ export default function ContactForm() {
         </div>
       </div>
 
-      <p className="form__notice">
-        ※携帯メールでお申し込みの場合は、受信拒否設定によりお問合せメールが返信できない場合があります。あらかじめPCメールの受信拒否設定を解除するか、okiku-den.co.jpドメインを受信ドメイン指定に設定してください。
-      </p>
-
       <div className="form__agree">
         <label>
           <input id="f-agree" type="checkbox" checked={f.agree} onChange={(e) => set("agree", e.target.checked)} {...aria("agree")} />
