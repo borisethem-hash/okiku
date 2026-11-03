@@ -227,8 +227,8 @@ async function main() {
     "2023/05/slide1.jpg", "2023/05/slide2.jpg", "2023/05/slide3.jpg", "2023/05/slide4.jpg",
     "2023/05/company.jpg", "2023/05/work.jpg", "2023/05/recruit.jpg",
     "2023/05/logo_header-bg-black.png", "2023/05/logo_footer-bg-black.png",
-    "2023/05/cropped-favicon-512x512.png", "2023/05/cropped-favicon-192x192.png", "2023/05/cropped-favicon-180x180.png",
-    "2026/07/image-10.png",
+    "2023/05/cropped-favicon-192x192.png", "2023/05/cropped-favicon-180x180.png",
+    "2026/07/image-10.png", "2024/02/S__7381214-1.jpg",
     "2023/05/735E2BF3-2120-44F8-B9DC-F3FA7EB058F5-1024x768.jpg",
   ];
   common.forEach((c) => register(`${ORIGIN}/wp-content/uploads/${c}`));

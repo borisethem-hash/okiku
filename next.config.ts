@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
+  partialPrefetching: true,
   // 旧サイト (WordPress) と同じく末尾スラッシュ付きURLに統一
   trailingSlash: true,
   images: {
